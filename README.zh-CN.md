@@ -2,7 +2,6 @@
 
 FreeSql 是一款功能强大的对象关系映射（O/RM）组件，支持 .NET Core 2.1+、.NET Framework 4.0+ 以及 Xamarin。
 
-[![Member project of .NET Core Community](https://img.shields.io/badge/member%20project%20of-NCC-9e20c9.svg)](https://github.com/dotnetcore)
 [![nuget](https://img.shields.io/nuget/v/FreeSql.svg?style=flat-square)](https://www.nuget.org/packages/FreeSql) 
 [![stats](https://img.shields.io/nuget/dt/FreeSql.svg?style=flat-square)](https://www.nuget.org/stats/packages/FreeSql?groupby=Version) 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/2881099/FreeSql/master/LICENSE.txt)
@@ -15,7 +14,7 @@ FreeSql 是一款功能强大的对象关系映射（O/RM）组件，支持 .NET
 </div>
 
 - 🛠 支持 CodeFirst 模式，即便使用 Access 数据库也支持数据迁移；
-- 💻 支持 DbFirst 模式，支持从数据库导入实体类，或使用[实体类生成工具](https://github.com/2881099/FreeSql/wiki/DbFirst)生成实体类；
+- 💻 支持 DbFirst 模式，支持从数据库导入实体类；
 - ⛳ 支持 深入的类型映射，比如 PgSql 的数组类型等；
 - ✒ 支持 丰富的表达式函数，以及灵活的自定义解析；
 - 🏁 支持 导航属性一对多、多对多贪婪加载，以及延时加载；
@@ -28,9 +27,9 @@ QQ群：4336577(已满)、8578575(已满)、52508226(在线)
 
 | | |
 | - | - |
-| <img src="https://github.com/dotnetcore/FreeSql/raw/master/Examples/restful/001.png" width="30" height="46"/> | [《新人学习指引》](https://www.cnblogs.com/FreeSql/p/11531300.html) \| [《Select》](https://github.com/2881099/FreeSql/wiki/%e6%9f%a5%e8%af%a2) \| [《Update》](https://github.com/2881099/FreeSql/wiki/%e4%bf%ae%e6%94%b9) \| [《Insert》](https://github.com/2881099/FreeSql/wiki/%e6%b7%bb%e5%8a%a0) \| [《Delete》](https://github.com/2881099/FreeSql/wiki/%e5%88%a0%e9%99%a4) |
+| <img src="https://github.com/nccreal/FreeSql/raw/master/Examples/restful/001.png" width="30" height="46"/> | [《新人学习指引》](https://www.cnblogs.com/FreeSql/p/11531300.html) \| [《Select》](https://github.com/2881099/FreeSql/wiki/%e6%9f%a5%e8%af%a2) \| [《Update》](https://github.com/2881099/FreeSql/wiki/%e4%bf%ae%e6%94%b9) \| [《Insert》](https://github.com/2881099/FreeSql/wiki/%e6%b7%bb%e5%8a%a0) \| [《Delete》](https://github.com/2881099/FreeSql/wiki/%e5%88%a0%e9%99%a4) |
 | <img src="https://github.com/dotnetcore/FreeSql/raw/master/Examples/restful/002.png" width="30" height="46"/> | [《表达式函数》](https://github.com/2881099/FreeSql/wiki/%e8%a1%a8%e8%be%be%e5%bc%8f%e5%87%bd%e6%95%b0) \| [《CodeFirst》](https://github.com/2881099/FreeSql/wiki/CodeFirst) \| [《DbFirst》](https://github.com/2881099/FreeSql/wiki/DbFirst) \| [《过滤器》](https://github.com/2881099/FreeSql/wiki/%e8%bf%87%e6%bb%a4%e5%99%a8) |
-| <img src="https://github.com/dotnetcore/FreeSql/raw/master/Examples/restful/003.png" width="30" height="46"/> | [《Repository》](https://github.com/2881099/FreeSql/wiki/Repository) \| [《UnitOfWork》](https://github.com/2881099/FreeSql/wiki/%e5%b7%a5%e4%bd%9c%e5%8d%95%e5%85%83) \| [《DbContext》](https://github.com/2881099/FreeSql/wiki/DbContext) \| [《ADO》](https://github.com/2881099/FreeSql/wiki/ADO) \| [《AOP》](https://github.com/2881099/FreeSql/wiki/AOP) |
+| <img src="https://github.com/nccreal/FreeSql/raw/master/Examples/restful/003.png" width="30" height="46"/> | [《Repository》](https://github.com/2881099/FreeSql/wiki/Repository) \| [《UnitOfWork》](https://github.com/2881099/FreeSql/wiki/%e5%b7%a5%e4%bd%9c%e5%8d%95%e5%85%83) \| [《DbContext》](https://github.com/2881099/FreeSql/wiki/DbContext) \| [《ADO》](https://github.com/2881099/FreeSql/wiki/ADO) \| [《AOP》](https://github.com/2881099/FreeSql/wiki/AOP) |
 | <img src="https://github.com/dotnetcore/FreeSql/raw/master/Examples/restful/004.png" width="30" height="46"/> | [《读写分离》](https://github.com/2881099/FreeSql/wiki/%e8%af%bb%e5%86%99%e5%88%86%e7%a6%bb) \| [《分表分库》](https://github.com/2881099/FreeSql/wiki/%e5%88%86%e8%a1%a8%e5%88%86%e5%ba%93) \| [《黑科技》](https://github.com/2881099/FreeSql/wiki/%E9%AA%9A%E6%93%8D%E4%BD%9C) \| [《常见问题》](https://github.com/dotnetcore/FreeSql/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)  \| [*更新日志*](https://github.com/2881099/FreeSql/wiki/%e6%9b%b4%e6%96%b0%e6%97%a5%e5%bf%97) |
 
 > FreeSql 提供多种使用习惯，请根据实际情况选择团队合适的一种：
