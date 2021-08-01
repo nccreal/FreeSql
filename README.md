@@ -14,7 +14,7 @@ FreeSql is a powerful O/RM component, supports .NET Core 2.1+, .NET Framework 4.
 </div>
 
 - 🛠 Support CodeFirst data migration.
-- 💻 Support DbFirst import entity class from database, or use [Generation Tool](https://github.com/2881099/FreeSql/wiki/DbFirst).
+- 💻 Support DbFirst import entity class from database
 - ⛳ Support advanced type mapping, such as PostgreSQL array type, etc.
 - 🌲 Support expression functions, and customizable analysis.
 - 🏁 Support one-to-many and many-to-many navigation properties, include and lazy loading.
